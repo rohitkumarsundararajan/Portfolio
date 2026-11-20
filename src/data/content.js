@@ -1,4 +1,4 @@
-export const profile = {
+﻿export const profile = {
   name: 'ROHIT KUMAR S',
   email: 'rohitkumarsundararajan@gmail.com',
   phone: '+91-9385518965',
@@ -9,25 +9,26 @@ export const tiles = [
     id: 'projects',
     title: 'Projects',
     visuals: true,
-    description: 'An AI finance manager and a 3D medical visualizer that turns reports into a model you can control with your hands.',
-    tags: ['Java', 'Maven', 'SQL', 'React Three Fiber', 'MediaPipe', 'OCR/NLP', 'Spring Boot', 'PostgreSQL'],
+    description: 'An AI finance manager and a code architecture analyzer that turns any repository into a health report.',
+    tags: ['Java', 'Spring Boot', 'Python', 'React', 'PostgreSQL', 'Redis', 'Docker', 'SQL', 'Maven'],
     link: 'https://github.com/rohitkumarsundararajan',
     entries: [
       {
         heading: 'TrackIt - AI Personal Finance Manager',
         meta: 'Java, Maven, SQL',
         bullets: [
-          'Built an intelligent expense tracking system with AI-driven insights for smarter financial decisions',
-          'Implemented predictive financial planning features to forecast spending patterns and savings goals',
-          'Designed an intuitive dashboard for visualizing income, expenses, and budget performance in real time',
+          'Built an expense tracking system with AI-driven insights that turn spending data into actionable financial decisions',
+          'Implemented predictive analytics to forecast spending patterns and savings goals',
+          'Designed a real-time dashboard visualizing income, expenses, and budget performance',
         ],
       },
       {
-        heading: 'Vision - Report-to-3D Medical Visualizer',
-        meta: 'React Three Fiber, MediaPipe, OCR/NLP, Spring Boot, PostgreSQL',
+        heading: 'RepoDNA - Code Architecture & Quality Analyzer',
+        meta: 'Java, Spring Boot, Python, PostgreSQL, Redis, Docker, React',
         bullets: [
-          'Built a 3D anatomy viewer that uses OCR/NLP to map medical reports to affected organs and MediaPipe hand-gesture controls for interaction, backed by a Spring Boot + PostgreSQL server',
-          'Translated extracted clinical findings into plain-language, auto-highlighting the corresponding organ on the 3D model',
+          'Built a platform that turns a GitHub/GitLab URL or ZIP into a repo health report, converting raw code metrics into 3 DNA scores (0-100)',
+          'Designed an event-driven architecture: a Spring Boot API (12 REST endpoints, JWT) queues jobs on Redis for a Python worker doing tree-sitter AST analysis in 6-8 s',
+          'Designed the PostgreSQL data model (6 Flyway migrations, JSONB); built a React dashboard and 28 Testcontainers tests',
         ],
       },
     ],
